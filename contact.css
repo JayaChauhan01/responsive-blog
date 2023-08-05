@@ -1,0 +1,33 @@
+.contact-content{
+    height: 395px;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+.contact-content::after{
+    content: "";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gfel-AapoSZTh5Lnp4WWv4lypUWN7wbqZg&usqp=CAU");
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+
+}
+.form-box input{
+    width: 52vw;
+    padding: 10px 6px;
+    border-radius: 10px;
+    border-color: rgb(247, 171, 40);
+    color: aquamarine;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+
+}

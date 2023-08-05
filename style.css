@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navigation{
+    background-color: antiquewhite;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:  74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.1s ease-in-out;
+}
+.nav-left ul li:hover{
+    color: rgb(166, 139, 235);
+    background: var(--main-bg-color);
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul li a:hover{
+    color: rgb(94, 56, 192);
+    background: var(--main-bg-color);
+}
+.nav-left ul li :hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+
+.content{
+    height: 395px;
+    background-color: rgb(208, 208, 253);
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    margin: 10px 0;
+    position: relative;
+
+}
+.content::after{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    content: "";
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gfel-AapoSZTh5Lnp4WWv4lypUWN7wbqZg&usqp=CAU");
+    opacity: 0.2;
+    
+
+}
+.content-left{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-articles{
+height: 755px;
+background-color: rgb(207, 237, 221);
+margin: 10px 0;
+
+}
+.home-article1{
+    margin: 50px 0;
+    height: 121px;
+    display: flex;
+}
+.home-article1 img{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+.home-article1 h3{
+    margin: 20px;
+    display: flex;
+}
+.footer{
+    height: 55px;
+    background-color: rgb(239, 205, 239);
+    display: flex;
+    -ms-flex-item-align: center;
+    justify-content: center;
+}
